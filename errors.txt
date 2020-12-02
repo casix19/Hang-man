@@ -1,0 +1,14 @@
+DEBUG:root:This message should go to the log file
+ERROR:root:Got exception on main handler
+Traceback (most recent call last):
+  File "c:/Users/alexs/Documents/Python/games/hang_man_final/Hang-man/main.py", line 187, in <module>
+    main_game()
+  File "c:/Users/alexs/Documents/Python/games/hang_man_final/Hang-man/main.py", line 78, in main_game
+    main_game()
+  File "c:/Users/alexs/Documents/Python/games/hang_man_final/Hang-man/main.py", line 78, in main_game
+    main_game()
+  File "c:/Users/alexs/Documents/Python/games/hang_man_final/Hang-man/main.py", line 70, in main_game
+    quit()
+  File "C:\Python36\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
